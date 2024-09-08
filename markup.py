@@ -43,6 +43,7 @@ class BasicTextParser(Parser):
     """
     A specific Parser that adds rules and filters in its constructor.
     """
+
     def __init__(self, handler):
         Parser.__init__(self, handler)
         self.addRule(ListRule())
@@ -58,3 +59,4 @@ class BasicTextParser(Parser):
 handler = HTMLRenderer()
 parser = BasicTextParser(handler)
 parser.parse(sys.stdin)
+

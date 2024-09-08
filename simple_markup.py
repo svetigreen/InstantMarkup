@@ -4,7 +4,7 @@ from util import *
 if len(sys.argv) > 1:
     output_file = sys.argv[1]
 else:
-    output_file = 'output.html'
+    output_file = 'test_output.html'
 
 with open(output_file, 'w', encoding='utf-8') as f:
     f.write('<html><head><title>World Wide Spam</title><body>')

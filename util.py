@@ -35,7 +35,7 @@ def blocks(file):
             block = []
 
 
-if __name__ == '__main__':
+'''if __name__ == '__main__':
     input_file = 'test_input.txt'
     block_count = 0  # Initialize the block counter
 
@@ -44,4 +44,5 @@ if __name__ == '__main__':
 
         for block in blocks(input_file):
             block_count += 1  # Increment the counter for each block
-            print(f"Block {block_count}:\n{block}\n")
+            f.write(f"Block {block_count}:\n{block}\n")
+'''
